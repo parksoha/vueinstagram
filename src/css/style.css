@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+  margin-top: 60px;
+  width: 100%;
+  max-width: 460px;
+  margin: auto;
+  position: relative;
+  border-right: 1px solid #eee;
+  border-left: 1px solid #eee;
+}
+ul {
+  list-style: none;
+  padding: 5px;
+}
+.logo {
+  width: 100px;
+  margin: auto;
+  display: block;
+  position: absolute;
+  left: 15px;
+  top: 13px;
+}
+.header {
+  width: 100%;
+  height: 40px;
+  background: #ffffff;
+  padding-bottom: 8px;
+  position: sticky; /* 화면 상단에 고정 */
+  top: 0;
+}
+
+.header_button {
+  color: black;
+  float: right;
+  width: 50px;
+  padding-left: 20px;
+  cursor: pointer;
+  margin-top: 5px;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.inputbox {
+  display: none;
+}
+.input_plus {
+  cursor: pointer;
+}
+.more {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+  line-height: 2;
+  background-color: #eee;
+  border: #eee;
+  border-radius: 10px;
+}
+.page {
+  text-align: center;
+  line-height: 2;
+}
+.btn_wrap {
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+
+.btn_wrap button {
+  width: 30%;
+  line-height: 2;
+  margin: 0 5px;
+  background-color: #eee;
+  border-radius: 10px;
+  border: 0;
+}
